@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS only -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <!-- Подключенте шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Первый блок -->
+    <header>
+        <div class="navbar">
+        <div class="container">
+            <div class="row navbar__row ">
+                <div class="col-sm-7 navbar__logo">Kareglazka</div>
+                <div class="navbar__links col-sm-4">
+                    <div class="navbar__links__container">
+                        <a href="#element1" class="navbar__link">Usługi</a>
+                        <a href="#element2" class="navbar__link">Połączenie</a>
+                        <a href="#element3" class="navbar__link">Moje prace</a>
+                        
+                    </div>
+                </div>
+                <!--Burger-->
+                <div class="burger">
+                    <div class="line line_1"></div>
+                    <div class="line line_2"></div>
+                    <div class="line line_3"></div>
+                </div>               
+            </div>
+        </div>
+        </div>
+
+        <!-- Встречный текст -->
+        <div class="welcome__page">
+        <div class="welcome__page__container">
+            <div class="container">
+                <div class="row justify-content-md-center welcome__page__row">
+                    <div class="col-md-3 welcome__page__text__container">
+                        <div class="welcome__page__main__text">Witam! nazywam się Daria</div>
+                        <div class="welcome__page__basic__text">Jestem mistrzynią manicure z Ukrainy z ponad 2 letnim doświadczeniem.</div>
+                    </div>
+                    <div class="col-md-1 welcome__page__image">
+                        <img src="images/welcome__page.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div> 
+        </div>
+        </div>
+    </header>
+
+    <!-- Услуги -->
+    
+    <div id="element1" class="services">
+        <div class="title">Usługi</div>
+        <div class="services__container">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-3">
+                        <img class= "services__image img-responsive" src="images/connection_bg.jpg" alt="" srcset="">
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="services__card">
+                            <div class="services__card__image"></div>
+                            <div class="services__text__container">
+                                <div class="services__text__main">Połączony manicure</div>
+                                <div class="services__text__basic">50-100 PLN</div>
+                            </div>
+                        </div>
+                        
+                        <div class="services__card">
+                            <div class="services__card__image"></div>
+                            <div class="services__зtext__container">
+                                <div class="services__text__main">Powłoka żelowo-polerowa</div>
+                                <div class="services__text__basic">50-100 PLN</div>
+                            </div>
+                        </div>
+
+                        <div class="services__card">
+                            <div class="services__card__image"></div>
+                            <div class="services__text__container">
+                                <div class="services__text__main">Naprawa paznokci</div>
+                                <div class="services__text__basic">50-100 PLN</div>
+                            </div>
+                        </div>
+
+                        <div class="services__card">
+                            <div class="services__card__image"></div>
+                            <div class="services__text__container">
+                                <div class="services__text__main">Usuwanie bez powłoki</div>
+                                <div class="services__text__basic">50-100 PLN</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Контакты -->
+    <div id = "element2"class="contacts">
+        <div class="title title__contacts">Contacts</div>
+        <div class="contacts__container">
+            <div class="container">
+                <div class="contacts__item__container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-1 contacts__image__container"> <a href="https://t.me/MxngoBxy"><img class ="contacts__image" src="images/contacts-1.svg" alt=""></a></div>
+                        <div class="col-md-1 contacts__image__container"><a href="viber://chat?number=%2B380508777025"><img class ="contacts__image" src="images/contacts-2.svg" alt=""></a></div>
+                        <div class="col-md-1 contacts__image__container"><a href="https://instagram.com/manikur_ot_kareglazki?igshid=YmMyMTA2M2Y="><img class ="contacts__image" src="images/contacts-3.svg" alt=""></a></div>
+                    </div>
+                    <div class="cblock"><a href="tel:+48796776282">+48796776282</a></div>
+                    <div class="cblock cblock_nonpointer">Центр Голеньова</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Портфолио -->
+
+    <div id="element3" class="portfolio">
+        <div class="title title__portfolio">Portfolio</div>
+        <div class="portfolio__container">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-1.jpeg" alt="" srcset=""></div>
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-2.jpeg" alt="" srcset=""></div>
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-3.jpeg" alt="" srcset=""></div>
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-4.jpeg" alt="" srcset=""></div>
+                </div>
+ 
+                <div class="row portfolio__second__row justify-content-md-center">
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-5.jpeg" alt="" srcset=""></div>
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-6.jpeg" alt="" srcset=""></div>
+                    <div class="col-lg-3  col-sm-6 portfolio__image"><img src="images/portfolio-7.jpeg" alt="" srcset=""></div>
+                    <div class="col-lg-3  col-sm-6 portfolio__image">
+                        <div class="next">
+                            <div class="next__container">
+                                <div class="next__main__text">Następny manicure będzie Twój</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="container">
+                <div class="row footer__second__container">
+                        <div class="col-sm-1 footer__image__container"> <a href="https://t.me/MxngoBxy"><img class ="contacts__image" src="images/contacts-1.svg" alt=""></a></div>
+                        <div class="col-sm-1 footer__image__container"><a href="viber://chat?number=%2B380508777025"><img class ="contacts__image" src="images/contacts-2.svg" alt=""></a></div>
+                        <div class="col-sm-1 footer__image__container"><a href="https://instagram.com/manikur_ot_kareglazki?igshid=YmMyMTA2M2Y="><img class ="contacts__image" src="images/contacts-3.svg" alt=""></a></div>
+                        <div class="col-sm-1 nonbackground cblock"><a href="tel:+48796776282">+48796776282</a></div>
+                        <div class="col-sm-3 nonbackground cblock cblock_nonpointer">Центр Голеньова</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
